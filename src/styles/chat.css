@@ -1,0 +1,156 @@
+/* 
+
+.chat-container {
+    width: 90%;
+    height: 80%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .input-field {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: #040232;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .message {
+    max-width: 100%;
+    max-height:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+
+  }
+  
+  .message-sent  {
+    align-self: flex-end;
+  
+    background: #040232;
+    color: white;
+  }
+
+  
+  .message-received {
+    align-self: flex-start;
+    background: #f5f5f5;
+  }
+  .input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: auto;
+  }
+  .chat-submit {
+    background: none ;
+    color: #040232;
+  
+  }
+  .message-user{
+    align-self: flex-end;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  
+
+
+  .message-containersent{
+    display: flex; 
+    flex-direction: row;
+    align-self: flex-end;
+    border: 0%;
+    
+
+  
+  
+   
+  } 
+  .message-containerreseved{
+    display: flex; 
+    flex-direction: row;
+    align-self: flex-start;
+  
+  
+  } 
+  .user-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .user-photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+
+  
+  
+  
+   */
+
+.chat-online {
+  color: #34ce57
+}
+
+.chat-offline {
+  color: #e4606d
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  overflow-y:scroll;
+  
+  
+}
+.card {
+width: 1000px !important;
+}
+
+.chat-message-left,
+.chat-message-right {
+  display: flex;
+  flex-shrink: 0
+}
+
+.chat-message-left {
+  margin-right: auto;
+}
+
+.chat-message-right {
+  flex-direction: row-reverse;
+  margin-left: auto;
+  
+}
+
+.py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+.px-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+  flex-grow: 0!important;
+}
+.border-top {
+  border-top: 1px solid #dee2e6!important;
+}

@@ -1,0 +1,7 @@
+  apiKey: "AIzaSyC8zE4-nyROps8M8l1E3qvKbzHPVO-zqFI",
+  authDomain: "neuroapp-1b516.firebaseapp.com",
+  projectId: "neuroapp-1b516",
+  storageBucket: "neuroapp-1b516.appspot.com",
+  messagingSenderId: "924588591311",
+  appId: "1:924588591311:web:26f785b50965add8f00fba",
+  measurementId: "G-ZVVQF9F4N9"
